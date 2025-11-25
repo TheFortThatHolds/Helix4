@@ -32,7 +32,7 @@ module helix_reactor #(
                 case(precision_mode)
                     2'b00: accumulator <= {{(THOUGHT_W-CONTEXT_W){1'b0}}, ctx_data};
                     2'b01: accumulator <= {ctx_data, accumulator[THOUGHT_W-CONTEXT_W-1:0]};
-                    2'b10: accumulator <= accumulator ^ {ctx_data, ctx_data[THOUGHT_W-2*CONTEXT_W-1:0]};
+                    2'b10: accumulator <= accumulator ^ {{(THOUGHT_W-CONTEXT_W){1'b0}}, ctx_data};
                     default: accumulator <= accumulator + {{(THOUGHT_W-CONTEXT_W){1'b0}}, ctx_data};
                 endcase
                 thought_data  <= accumulator;

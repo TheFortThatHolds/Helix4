@@ -1,7 +1,6 @@
 `timescale 1ns/1ps
 
 module tb_helix4;
-    import helix_pkg::*;
 
     localparam int INPUT_W_TB   = 32;
     localparam int CONTEXT_W_TB = 64;
