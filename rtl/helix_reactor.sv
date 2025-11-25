@@ -1,8 +1,8 @@
 `include "helix_pkg.sv"
 
 module helix_reactor #(
-    parameter int CONTEXT_W = helix_pkg::CONTEXT_W,
-    parameter int THOUGHT_W = helix_pkg::THOUGHT_W
+    parameter int CONTEXT_W =  `HELIX_CONTEXT_W ,
+    parameter int THOUGHT_W =  `HELIX_THOUGHT_W 
 )(
     input  logic                      clk,
     input  logic                      rst_n,

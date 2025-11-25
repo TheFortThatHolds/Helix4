@@ -1,8 +1,8 @@
 `include "helix_pkg.sv"
 
 module helix_aperture #(
-    parameter int THOUGHT_W = helix_pkg::THOUGHT_W,
-    parameter int ACTION_W  = helix_pkg::ACTION_W
+    parameter int THOUGHT_W =  `HELIX_THOUGHT_W ,
+    parameter int ACTION_W  =  `HELIX_ACTION_W 
 )(
     input  logic                      clk,
     input  logic                      rst_n,

@@ -1,9 +1,9 @@
 `include "helix_pkg.sv"
 
 module helix_reservoir #(
-    parameter int INPUT_W   = helix_pkg::INPUT_W,
-    parameter int CONTEXT_W = helix_pkg::CONTEXT_W,
-    parameter int FEEDBACK_W= helix_pkg::FEEDBACK_W
+    parameter int INPUT_W   =  `HELIX_INPUT_W ,
+    parameter int CONTEXT_W =  `HELIX_CONTEXT_W ,
+    parameter int FEEDBACK_W=  `HELIX_FEEDBACK_W 
 )(
     input  logic                       clk,
     input  logic                       rst_n,

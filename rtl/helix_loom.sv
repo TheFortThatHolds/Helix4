@@ -1,9 +1,9 @@
 `include "helix_pkg.sv"
 
 module helix_loom #(
-    parameter int THOUGHT_W = helix_pkg::THOUGHT_W,
-    parameter int ACTION_W  = helix_pkg::ACTION_W,
-    parameter int FEEDBACK_W= helix_pkg::FEEDBACK_W
+    parameter int THOUGHT_W =  `HELIX_THOUGHT_W ,
+    parameter int ACTION_W  =  `HELIX_ACTION_W ,
+    parameter int FEEDBACK_W=  `HELIX_FEEDBACK_W 
 )(
     input  logic                      clk,
     input  logic                      rst_n,
