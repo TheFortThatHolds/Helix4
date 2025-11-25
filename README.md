@@ -31,6 +31,9 @@ See `docs/hardware_spec.md` and `docs/software_spec.md` for full details.
 - `LICENSE` — MIT license.
 - `LICENSE2` —CERN-OHL-P v2 license.
 
+- ## 🗺️ Execution Roadmap
+[Helix-4 Build Schedule] https://github.com/users/TheFortThatHolds/projects/2
+
 ## Status
 
 This release is conceptual. It is intended to spark discussion about closed‑loop hardware/software design inspired by the Cycle of Expression. There is no working silicon yet; the files here serve as a reference architecture and learning resource.
