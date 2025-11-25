@@ -29,10 +29,18 @@ See `docs/hardware_spec.md` and `docs/software_spec.md` for full details.
 - `images/hardware_diagram.png` — Diagram of the Helix‑4 hardware architecture.
 - `images/software_diagram.png` — Diagram of the ARP algorithm flow.
 - `LICENSE` — MIT license.
+- `LICENSE2` —CERN-OHL-P v2 license.
 
 ## Status
 
 This release is conceptual. It is intended to spark discussion about closed‑loop hardware/software design inspired by the Cycle of Expression. There is no working silicon yet; the files here serve as a reference architecture and learning resource.
+
+## License
+
+This project is dual-licensed:
+
+* **Software:** All software code (e.g., Python files, firmware) is licensed under the **MIT License**. See the `LICENSE` file for details.
+* **Hardware:** All hardware designs (e.g., schematics, diagrams, specifications) are licensed under the **CERN-OHL-P v2**. See the `LICENSE2` file for details.
 
 ## Open‑Source Guidelines
 
